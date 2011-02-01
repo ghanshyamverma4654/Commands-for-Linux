@@ -1,9 +1,9 @@
 ## API
 Set content:
-`editor.getSession().getDocument().setValue("the new text here")`
+`editor.getSession().setValue("the new text here")`
 
 Get content:
-`editor.getSession().getDocument().getValue()`
+`editor.getSession().getValue()`
 
 Go to line:
 `editor.gotoLine(line_number)`
@@ -19,7 +19,7 @@ Highlight line:
 
 ## Events
 OnChange:
-`editor.getSession().doc.on('change', callback);`
+`editor.getSession().on('change', callback);`
 
 Selection change
 `editor.getSession().selection.on('changeSelection', callback);`
