@@ -5,6 +5,9 @@ Set content:
 Get content:
 `editor.getSession().getValue()`
 
+Get selection:
+`editor.getSession().doc.getTextRange(editor.getSelectionRange())`
+
 Go to line:
 `editor.gotoLine(line_number)`
 
@@ -29,6 +32,5 @@ Cursor change
 
 ## Still to work out
 * Find API
-* Get selected text
 * Assign key binding
 * Fontsize
