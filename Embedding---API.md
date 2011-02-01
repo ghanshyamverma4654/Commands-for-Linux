@@ -20,6 +20,9 @@ Word Wrap:
 Highlight line:
 `editor.setHighlightActiveLine(false);`
 
+Set to read-only:
+`editor.getSession().setReadOnly(true);  // false for the editable` 
+
 ## Events
 OnChange:
 `editor.getSession().on('change', callback);`
