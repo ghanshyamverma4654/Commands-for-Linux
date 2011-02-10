@@ -47,6 +47,8 @@ Find
 Replace
 `editor.find('foo');`
 `editor.replace('bar');`
+
+Replace All
 `editor.replaceAll('bar');`
 
 ## Still to work out
