@@ -33,7 +33,22 @@ Selection change
 Cursor change
 `editor.getSession().selection.on('changeCursor', callback);`
 
+Find
+`editor.find('needle',{
+        backwards: false,
+        wrap: false,
+        caseSensitive: false,
+        wholeWord: false,
+        regExp: false
+    });`
+`editor.findNext();`
+`editor.findPrevious();`
+
+Replace
+`editor.find('foo');`
+`editor.replace('bar');`
+`editor.replaceAll('bar');`
+
 ## Still to work out
-* Find API
-* Assign key binding
-* Fontsize
+* Assign key binding to custom function
+* Set fontsize
