@@ -14,24 +14,15 @@ Go to line:
 Tab size:
 `editor.getSession().setTabSize(4);`
 
-Word Wrap:
+Toggle Word Wrap:
 `editor.getSession().setUseWrapMode(true);`
 
-Highlight line:
+Toggle Highlight line:
 `editor.setHighlightActiveLine(false);`
 
 Set to read-only:
 `editor.getSession().setReadOnly(true);  // false for the editable` 
 
-## Events
-OnChange:
-`editor.getSession().on('change', callback);`
-
-Selection change
-`editor.getSession().selection.on('changeSelection', callback);`
-
-Cursor change
-`editor.getSession().selection.on('changeCursor', callback);`
 
 Find
 `editor.find('needle',{
@@ -50,6 +41,16 @@ Replace
 
 Replace All
 `editor.replaceAll('bar');`
+
+## Events
+OnChange:
+`editor.getSession().on('change', callback);`
+
+Selection change
+`editor.getSession().selection.on('changeSelection', callback);`
+
+Cursor change
+`editor.getSession().selection.on('changeCursor', callback);`
 
 ## Still to work out
 * Assign key binding to custom function
