@@ -14,6 +14,9 @@ Go to line:
 Tab size:
 `editor.getSession().setTabSize(4);`
 
+Font size:
+`document.getElementById('editor').style.fontSize='12px';`
+
 Toggle Word Wrap:
 `editor.getSession().setUseWrapMode(true);`
 
