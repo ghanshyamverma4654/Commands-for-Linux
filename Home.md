@@ -1,1 +1,3 @@
-Welcome to the ace wiki!
+[Embedding API](Embedding---API)
+
+[Edit or embed Ace (teleport)](Edit-or-embed-Ace-(with-Teleport\))
