@@ -57,4 +57,3 @@ Cursor change
 
 ## Still to work out
 * Assign key binding to custom function
-* Set fontsize
