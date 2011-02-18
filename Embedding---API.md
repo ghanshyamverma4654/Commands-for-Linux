@@ -5,7 +5,7 @@ Ace can be easily embedded into any existing web page. The Ace git repository sh
 The easiest version is simply:
 
 ```html
-<div id="editor">some text</div>
+<div id="editor" style="height: 500px; width: 500px">some text</div>
 <script src="src/ace.js" type="text/javascript" charset="utf-8"></script>
 <script>
 window.onload = function() {
