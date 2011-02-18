@@ -58,7 +58,7 @@ Toggle Highlight line:
 `editor.setHighlightActiveLine(false);`
 
 Set to read-only:
-`editor.getSession().setReadOnly(true);  // false for the editable` 
+`editor.setReadOnly(true);  // false for the editable` 
 
 
 Find
