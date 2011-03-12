@@ -58,7 +58,7 @@ editor.getSession().doc.getTextRange(editor.getSelectionRange());
 
 Insert at cursor:
 ```javascript
-editor.getSession().insert("Something cool");
+editor.insert("Something cool");
 ```
 
 Go to line:
