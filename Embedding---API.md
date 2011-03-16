@@ -91,6 +91,11 @@ Toggle Highlight line:
 editor.setHighlightActiveLine(false);
 ```
 
+Set Print Margin Visibility:
+```javascript
+editor.setShowPrintMargin(false);
+```
+
 Set to read-only:
 ```javascript
 editor.setReadOnly(true);  // false for the editable
