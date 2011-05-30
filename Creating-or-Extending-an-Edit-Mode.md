@@ -161,11 +161,10 @@ this.addRules(newRules, "new-");
     
 ### Embedding a different highlighter
 
-Using `getRules` and `addRules`, it is easy to embed one highlighter within another. For instance, to embed css highlighting between `^style` and `^endstyle`:
+Using `embedRules` it is easy to embed one highlighter within another. For instance, to embed css highlighting between `^style` and `^endstyle`:
 
 ```javascript
 var CssHighlightRules = require("ace/mode/css_highlight_rules").CssHighlightRules;
-var cssRules = new CssHighlightRules().getRules();
 
 this.$rules = {
     start: [ {
@@ -175,13 +174,11 @@ this.$rules = {
     } ]
 };
 
-this.addRules(cssRules, "css-");
-// Add a an escape rule to the top of the css rules.
-this.$rules["css-start"].unshift({
-    token: "keyword",
-    regex: "^endstyle\\s*$",
-    next: "start"
-});
+this.embedRules(CssHighlightRules, "css-", [{
+   token : "keyword",
+   regex: "^endstyle\\s*$",
+   next  : "start"
+}]);
 ```
     
 ## Common Tokens
