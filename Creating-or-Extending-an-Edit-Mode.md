@@ -180,7 +180,27 @@ this.embedRules(CssHighlightRules, "css-", [{
    next  : "start"
 }]);
 ```
+
+## Mode delegation
+
+Once a highlighter is embedded, it is also easy to delegate mode behaviour to the embedded mode while we are editing inside it. This is done by modifying the Mode constructor to use the `getEmbeds` and `createModeDelegates` functions as follows:
+
+```javascript
+var CssMode = require("ace/mode/css").Mode;
+
+var Mode = function() {
+    var highlighter = new ExampleHighlightRules();
     
+    this.$tokenizer = new Tokenizer(highlighter.getRules());
+    this.$embeds = highlighter.getEmbeds();
+    this.createModeDelegates({
+      "css-": CssMode
+    });
+};
+```
+
+With this, any mode specific behaviour (such as indenting, outdenting, or keyboard reactions) will be delegated to the CssMode when we are inside a css block. The prefix in createModeDelegates should match the one used in the highlighter. Multiple modes may be embedded in this manner, and the delegation is nestable, so that a JavaScriptMode inside an HTMLMode inside a MarkdownMode would still retain proper expected behaviour.
+
 ## Common Tokens
 
 The following are the common tokens to themes. Note that not all of these may have styling associated with them, depending on the theme used.
