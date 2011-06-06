@@ -40,7 +40,7 @@ automatically be available on the [http://localhost:4747/ace/editor.html].
 restarting a teleport).
 
 In some cases you might need to make changes not only to the ace but also to
-it's dependencies ([pilot], [cockpit]), in such case you will have to link
+its dependencies ([pilot], [cockpit]), in such case you will have to link
 those dependencies in exactly same manner.
 
 ## Using Ace in project ##
