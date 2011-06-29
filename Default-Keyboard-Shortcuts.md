@@ -1,5 +1,6 @@
-#Mac Keyboard
+#Default Keyboard Shortcuts
 
+##Mac
 * Ctrl-L - center selection
 * Command-Option-Down - copy lines down
 * Command-Option-Up - copy lines up
@@ -53,3 +54,50 @@
 * Command-7 - toggle comment
 * Ctrl-T - transpose letters
 * Command-Z - undo
+
+##PC Keyboard
+* Ctrl-Alt-Down - copy lines down
+* Ctrl-Alt-Up - copy lines up
+* Ctrl-F - find
+* Ctrl-K - find next
+* Ctrl-Shift-K - find previous
+* Down - go line down
+* Up - go line up
+* Ctrl-End|Ctrl-Down - go to end
+* Left - go to left
+* Ctrl-L - go to line
+* Alt-Right|End - go to line end
+* Alt-Left|Home - go to line start
+* PageDown - go to page down
+* PageUp - go to page up
+* Right - go to right
+* Ctrl-Home|Ctrl-Up - go to start
+* Ctrl-Left - go to word left
+* Ctrl-Right - go to word right
+* Tab - indent
+* Alt-Down - move lines down
+* Alt-Up - move line sup
+* Shift-Tab - outdent
+* Insert - overwrite
+* Ctrl-Shift-Z|Ctrl-Y - redo
+* Ctrl-D - remove line
+* Ctrl-R - replace
+* Ctrl-Shift-R - replace all
+* Ctrl-A - select all
+* Shift-Down - select down
+* Shift-Left - select left
+* Shift-End - select line end
+* Shift-Home - select line start
+* Shift-PageDown - select page down
+* Shift-PageUp - select page up
+* Shift-Right - select right
+* Ctrl-Shift-End|Alt-Shift-Down - select to end
+* Alt-Shift-Right - select to line end
+* Alt-Shift-Left - select to line start
+* Ctrl-Shift-Home|Alt-Shift-Up - select to start
+* Shift-Up - select up
+* Ctrl-Shift-Left - select word left
+* Ctrl-Shift-Right - select word right
+* Ctrl-7 - toggle comment
+* Ctrl-T - transpose letters
+* Ctrl-Z - undo
