@@ -1,4 +1,4 @@
-[Building Ace]
+[[Building Ace]]
 
 [Embedding API](wiki/Embedding---API)
 
