@@ -1,5 +1,4 @@
-There is multiple ways to work on / with Ace, one is using [git submodules] and
-another is using [teleport]. This document describes just a later one.
+There are multiple ways to work on/with Ace. One may use [git submodules] or [teleport]. This document describes just the latter.
 
 ## Prerequisites ##
 
@@ -11,7 +10,7 @@ You will need the following installed on your system to get up and running:
 
 ## Installation ##
 
-Firs you need to get last publish version of ace and it's dependencies, to do so
+First, you need to get the latest published version of Ace and its dependencies. To do so,
 run following command in the terminal:
 
     npm install ace
@@ -45,13 +44,12 @@ those dependencies in exactly same manner.
 
 ## Using Ace in project ##
 
-If you decide to start project that will use ace, all you need to do is create
-[CommonJS package] with dependency on ace and link that package to the npm. All
-the content of Ace will be available to your package under `./support/ace`
-path.  
-_More detailed introduction on creating packages can be found in the [teleport
-guide](teleport)._  
-_If you want to see an example checkout [ace-teleported]._
+If you decide to start a project that will use Ace, all you need to do is create a
+[CommonJS package] with Ace as a dependency and link that package to npm. All of Ace's
+contents will be available to your package under _./support/ace_.
+_More detailed instructions on creating packages can be found in the [teleport
+guide](teleport)._
+_If you want to see an example, check out [ace-teleported]._
 
 
 
