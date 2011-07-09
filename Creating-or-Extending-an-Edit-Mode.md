@@ -37,7 +37,7 @@ var ExampleHighlightRules = function() {
 
 oop.inherits(ExampleHighlightRules, TextHighlightRules);
 
-exports.ExampleHighlightRules = HtmlHighlightRules;
+exports.ExampleHighlightRules = ExampleHighlightRules;
 });
 ```
     
