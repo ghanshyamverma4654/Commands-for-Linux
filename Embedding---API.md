@@ -42,66 +42,79 @@ editor.getSession().setMode(new JavaScriptMode());
 
 ## API
 Set content:
+
 ```javascript
 editor.getSession().setValue("the new text here");
 ```
 
 Get content:
+
 ```javascript
 editor.getSession().getValue();
 ```
 
 Get selection:
+
 ```javascript
 editor.getSession().doc.getTextRange(editor.getSelectionRange());
 ```
 
 Insert at cursor:
+
 ```javascript
 editor.insert("Something cool");
 ```
 
 Go to line:
+
 ```javascript
 editor.gotoLine(line_number);
 ```
 
 Tab size:
+
 ```javascript
 editor.getSession().setTabSize(4);
 ```
 
 Use soft tabs:
+
 ```javascript
 editor.getSession().setUseSoftTabs(true);
 ```
 
 Font size:
+
 ```javascript
 document.getElementById('editor').style.fontSize='12px';
 ```
 
 Toggle Word Wrap:
+
 ```javascript
 editor.getSession().setUseWrapMode(true);
 ```
 
 Toggle Highlight line:
+
 ```javascript
 editor.setHighlightActiveLine(false);
 ```
 
 Set Print Margin Visibility:
+
 ```javascript
 editor.setShowPrintMargin(false);
 ```
 
 Set to read-only:
+
 ```javascript
 editor.setReadOnly(true);  // false for the editable
 ```
 
 Find
+
 ```javascript
 editor.find('needle',{
   backwards: false,
@@ -114,34 +127,39 @@ editor.findNext();
 editor.findPrevious();
 ```
 
-Replace
+Replace:
+
 ```javascript
 editor.find('foo');
 editor.replace('bar');
 ```
 
-Replace All
+Replace All:
+
 ```javascript
 editor.replaceAll('bar');
 ```
 
 ## Events
 OnChange:
+
 ```javascript
 editor.getSession().on('change', callback);
 ```
 
-Selection change
+Selection change:
+
 ```javascript
 editor.getSession().selection.on('changeSelection', callback);
 ```
 
-Cursor change
+Cursor change:
+
 ```javascript
 editor.getSession().selection.on('changeCursor', callback);
 ```
 
-Assign key binding to custom function
+Assign key binding to custom function:
 
 ```javascript
 var canon = require('pilot/canon')
