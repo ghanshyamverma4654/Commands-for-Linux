@@ -31,7 +31,7 @@ var TextHighlightRules = require("ace/mode/text_highlight_rules").TextHighlightR
 
 var ExampleHighlightRules = function() {
 
-    this.$rules = new TextHighlightRules.getRules();
+    this.$rules = new TextHighlightRules().getRules();
     
 }
 
