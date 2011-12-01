@@ -1,6 +1,6 @@
 [[Building Ace]]
 
-[Embedding API](wiki/Embedding---API)
+[Embedding API](Embedding---API)
 
 [Edit or embed Ace (teleport)](wiki/Edit-or-embed-Ace-(with-Teleport\))
 
