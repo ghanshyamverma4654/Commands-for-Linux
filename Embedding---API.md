@@ -71,6 +71,11 @@ Go to line:
 editor.gotoLine(line_number);
 ```
 
+Get total number of lines:
+```javascript
+editor.getValue().split("\n").length
+```
+
 Tab size:
 
 ```javascript
