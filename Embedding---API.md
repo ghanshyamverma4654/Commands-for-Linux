@@ -178,7 +178,7 @@ canon.addCommand({
     exec: function(env, args, request) {
         //...
     }
-})
+});
 ```
 
 ## Still to work out
