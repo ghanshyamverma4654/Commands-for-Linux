@@ -23,6 +23,10 @@ Once all the prerequisites have been met, fire up a terminal and execute (assume
 
 ## Troubleshooting
 
+If you're having difficulty installing npm due to permissions issues, try running the command as follows:
+
+    curl http://npmjs.org/install.sh | sudo sh
+
 If you get errors, first make sure that you executed the 'git submodule' line above.  There are currently three submodules that are used during the build process:  'dryice', 'pilot', and 'cockpit'.
 
 If you get an error message with a stack trace such as "Error: Cannot find module 'uglify-js'", run 'npm install missingmodulename'.  npm will go out and attempt to install the missing package.  Then re-run the 'make clean' and 'make build' commands.
