@@ -167,8 +167,7 @@ editor.getSession().selection.on('changeCursor', callback);
 Assign key binding to custom function:
 
 ```javascript
-var canon = require("pilot/canon");
-canon.addCommand({
+editor.commands.addCommand({
     name: 'myCommand',
     bindKey: {
         win: 'Ctrl-M',
