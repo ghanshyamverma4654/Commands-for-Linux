@@ -65,6 +65,12 @@ Insert at cursor:
 editor.insert("Something cool");
 ```
 
+Get the current cursor line and column:
+
+```javascript
+editor.getSession().getSelection().getCursor();
+```
+
 Go to line:
 
 ```javascript
