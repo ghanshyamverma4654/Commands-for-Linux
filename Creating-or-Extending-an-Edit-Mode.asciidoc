@@ -71,6 +71,8 @@ This function when called should perform any replacement needed to outdent the c
 toggleCommentLines(state, doc, startRow, endRow)
 ```
 
+<a name="extendingTheHighlighter"></a>
+
 ## Extending the Highlighter
 
 The highlighter functions as a state machine, with regex matches used to determine tokens and transitions between states.  These notes assume use of the latest Ace.
