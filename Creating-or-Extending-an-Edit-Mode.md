@@ -71,7 +71,6 @@ This function when called should perform any replacement needed to outdent the c
 toggleCommentLines(state, doc, startRow, endRow)
 ```
 
-<a name="extendingTheHighlighter"></a>
 
 ## Extending the Highlighter
 
