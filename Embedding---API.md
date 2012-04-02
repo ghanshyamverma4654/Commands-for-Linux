@@ -124,6 +124,14 @@ Set to read-only:
 editor.setReadOnly(true);  // false for the editable
 ```
 
+Resize
+
+ACE only resizes itself on window events. If you resize the editor div in another manner and need ACE to resize use the following:
+
+```javascript```
+editor.resize()
+```
+
 Find
 
 ```javascript
