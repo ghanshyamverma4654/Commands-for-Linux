@@ -14,30 +14,18 @@ window.onload = function() {
 </script>
 ```
 
-To change the theme simply include the Theme's JavaScript file
-
-```html
-<script src="src/theme-twilight.js" type="text/javascript" charset="utf-8"></script>
-```
-
-and configure the editor to use the theme:
+To change the theme simply configure the editor to use the theme using its module name. The Theme file will be loaded on demand:
 
 ```javascript
 editor.setTheme("ace/theme/twilight");
 ```
 
+By default the editor only supports plain text mode. However all other language modes are available as separate modules. Modes are also loaded on demand.
 
-By default the editor only supports plain text mode. However all other language modes are available as separate modules. After including the mode's Javascript file
-
-```html
-<script src="src/mode-javascript.js" type="text/javascript" charset="utf-8"></script>
-```
-
-the mode can be used like this:
+The mode can be used like this:
 
 ```javascript
-var JavaScriptMode = require("ace/mode/javascript").Mode;
-editor.getSession().setMode(new JavaScriptMode());
+editor.getSession().setMode("ace/mode/javascript");
 ```
 
 ## API
@@ -185,10 +173,9 @@ editor.commands.addCommand({
     name: 'myCommand',
     bindKey: {
         win: 'Ctrl-M',
-        mac: 'Command-M',
-        sender: 'editor'
+        mac: 'Command-M'
     },
-    exec: function(env, args, request) {
+    exec: function(editor) {
         //...
     }
 });
