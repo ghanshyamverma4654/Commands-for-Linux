@@ -66,6 +66,7 @@ editor.gotoLine(line_number);
 ```
 
 Get total number of lines:
+
 ```javascript
 editor.getSession().getValue().split("\n").length;
 ```
