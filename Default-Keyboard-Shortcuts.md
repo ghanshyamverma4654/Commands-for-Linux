@@ -9,7 +9,7 @@
 | Ctrl-K                         | Command-G                      | find next                      |
 | Ctrl-Shift-K                   | Command-Shift-G                | find previous                  |
 | Alt-0                          | Option-0                       | fold all                       |
-| Alt-Shift-0                    | Option-Shift-                  | unfold all                     |
+| Alt-Shift-0                    | Option-Shift-0                 | unfold all                     |
 | Down                           | Down,Ctrl-N                    | go line down                   |
 | Up                             | Up,Ctrl-P                      | go line up                     |
 | Ctrl-End,Ctrl-Down             | Command-End,Command-Down       | go to end                      |
