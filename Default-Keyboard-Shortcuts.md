@@ -3,6 +3,8 @@
 | PC (Windows/Linux)             | Mac                            | action                         |
 |:-------------------------------|:-------------------------------|:-------------------------------|
 |                                | Ctrl-L                         | center selection               |
+| Ctrl-U                         | Ctrl-U                         | change to upper case           |
+| Ctrl-Shift-U                   | Ctrl-Shift-U                   | change to lower case           |
 | Ctrl-Alt-Down                  | Command-Option-Down            | copy lines down                |
 | Ctrl-Alt-Up                    | Command-Option-Up              | copy lines up                  |
 | Ctrl-F                         | Command-F                      | find                           |
