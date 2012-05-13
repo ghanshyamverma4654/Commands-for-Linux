@@ -18,6 +18,7 @@ Once all the prerequisites have been met, fire up a terminal and execute (assume
     git clone git://github.com/ajaxorg/ace.git
     cd ace
     git submodule update --init --recursive
+    npm install
     make clean
     make build
 
