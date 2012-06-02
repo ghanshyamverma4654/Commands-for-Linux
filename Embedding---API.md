@@ -1,6 +1,7 @@
 ##Embedding Ace
 
-Ace can be easily embedded into any existing web page. The Ace git repository ships with a pre-packaged version of Ace inside of the build directory. The same packaged files are also available as a separate download. Simply copy the contents of the src subdirectory somewhere into your project and take a look at the included demos of how to use Ace.
+Ace can be easily embedded into any existing web page. You can either use one of pre-packaged versions of [ace](https://github.com/ajaxorg/ace-builds/) (just copy one of `src*` subdirectories somewhere into your project), or use requireJS to load contents of [lib/ace](https://github.com/ajaxorg/ace/tree/master/lib/ace) as `ace`
+Also take a look at the one of [included](https://github.com/ajaxorg/ace-builds/blob/master/editor.html) [demos](https://github.com/ajaxorg/ace/blob/master/demo/kitchen-sink/demo.js) of how to use Ace.
 
 The easiest version is simply:
 
@@ -8,9 +9,7 @@ The easiest version is simply:
 <div id="editor" style="height: 500px; width: 500px">some text</div>
 <script src="src/ace.js" type="text/javascript" charset="utf-8"></script>
 <script>
-window.onload = function() {
     var editor = ace.edit("editor");
-};
 </script>
 ```
 
@@ -25,26 +24,32 @@ By default the editor only supports plain text mode. However all other language 
 The mode can be used like this:
 
 ```javascript
-editor.getSession().setMode("ace/mode/javascript");
+editor.session.setMode("ace/mode/javascript");
 ```
+
+Ace keeps all the editor state (selection, scroll position, etc.) in `editor.session` which is very useful for making tabbed editor
+
+```javascript
+var EditSession = require("ace/edit_session").EditSession
+var js = new EditSession("some js code")
+var css = new EditSession(["some", "css", "code here"])
+// and then to load document into editor just call
+editor.setSession(js)
+```
+
 
 ## API
-Set content:
+Set/get content:
 
 ```javascript
-editor.getSession().setValue("the new text here");
+editor.setValue("the new text here"); // or session.setValue
+editor.getValue(); // or session.getValue
 ```
 
-Get content:
+Get selected text:
 
 ```javascript
-editor.getSession().getValue();
-```
-
-Get selection:
-
-```javascript
-editor.getSession().doc.getTextRange(editor.getSelectionRange());
+editor.session.getTextRange(editor.getSelectionRange());
 ```
 
 Insert at cursor:
@@ -56,19 +61,19 @@ editor.insert("Something cool");
 Get the current cursor line and column:
 
 ```javascript
-editor.getSession().getSelection().getCursor();
+editor.selection.getCursor();
 ```
 
 Go to line:
 
 ```javascript
-editor.gotoLine(line_number);
+editor.gotoLine(lineNumber);
 ```
 
 Get total number of lines:
 
 ```javascript
-editor.getSession().getValue().split("\n").length;
+editor.session.getLength();
 ```
 
 Tab size:
@@ -172,10 +177,7 @@ Assign key binding to custom function:
 ```javascript
 editor.commands.addCommand({
     name: 'myCommand',
-    bindKey: {
-        win: 'Ctrl-M',
-        mac: 'Command-M'
-    },
+    bindKey: {win: 'Ctrl-M',  mac: 'Command-M'},
     exec: function(editor) {
         //...
     }
@@ -190,8 +192,7 @@ editor.commands.addCommand({
 How do you get access to the editor (not the DOM element, but the ace.edit() editor)?
 
 ```javascript
-window.onload = function()
-{
+window.onload = function() {
   window.aceEditor = ace.edit("editor");
 }
 
