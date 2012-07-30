@@ -205,26 +205,61 @@ With this, any mode specific behaviour (such as indenting, outdenting, or keyboa
 
 ## Common Tokens
 
-The following are the common tokens to themes. Note that not all of these may have styling associated with them, depending on the theme used.
+The following are the common tokens to themes, taken from the TextMate manual. Note that not all of these may have styling associated with them, depending on the theme used.
 
-    invisible
-    keyword
-    keyword.operator
-    constant
-    constant.language
-    constant.library
-    constant.numeric
-    invalid
-    invalid.illegal
-    invalid.deprecated
-    support
-    support.function
-    support.buildin
-    string
-    string.regexp
-    comment
-    comment.doc
-    comment.doc.tag
-    variable
-    variable.language
-    xml_pe
+*   `comment`: for comments.
+    
+    *   `line`: line comments, we specialize further so that the type of comment start character(s) can be extracted from the scope. 
+        *   `double-slash`: `// comment`
+        *   `double-dash`: `-- comment`
+        *   `number-sign`: `# comment`
+        *   `percentage`: `% comment`
+        *   *character*: other types of line comments.
+    *   `block`: multi-line comments like `/* â€¦ */` and `<!-- â€¦ -->`. 
+        *   `documentation`: embedded documentation.
+
+*   `constant`: various forms of constants.
+    
+    *   `numeric`: those which represent numbers, e.g. `42`, `1.3f`, `0x4AB1U`.
+    *   `character`: those which represent characters, e.g. `&lt;`, `\e`, `\031`. 
+        *   `escape`: escape sequences like `\e` would be `constant.character.escape`.
+    *   `language`: constants (generally) provided by the language which are â€œspecialâ€ like `true`, `false`, `nil`, `YES`, `NO`, etc.
+    *   `other`: other constants, e.g. colors in CSS.
+
+*   `entity`: an entity refers to a larger part of the document, for example a chapter, class, function, or tag. We do not scope the entire entity as `entity.*` (we use `meta.*` for that). But we do use `entity.*` for the â€œplaceholdersâ€ in the larger entity, e.g. if the entity is a chapter, we would use `entity.name.section` for the chapter title.
+    
+    *   `name`: we are naming the larger entity. 
+        *   `function`: the name of a function.
+        *   `type`: the name of a type declaration or class.
+        *   `tag`: a tag name.
+        *   `section`: the name is the name of a section/heading.
+    *   `other`: other entities. 
+        *   `inherited-class`: the superclass/baseclass name.
+        *   `attribute-name`: the name of an attribute (mainly in tags).
+
+*   `invalid`: stuff which is â€œinvalidâ€.
+    
+    *   `illegal`: illegal, e.g. an ampersand or lower-than character in HTML (which is not part of an entity/tag).
+    *   `deprecated`: for deprecated stuff e.g. using an API function which is deprecated or using styling with strict HTML.
+
+*   `keyword`: keywords (when these do not fall into the other groups).
+    
+    *   `control`: mainly related to flow control like `continue`, `while`, `return`, etc.
+    *   `operator`: operators can either be textual (e.g. `or`) or be characters.
+    *   `other`: other keywords.
+
+*   `markup`: this is for markup languages and generally applies to larger subsets of the text.
+    
+    *   `underline`: underlined text. 
+        *   `link`: this is for links, as a convenience this is derived from `markup.underline` so that if there is no theme rule which specifically targets `markup.underline.link` then it will inherit the underline style.
+    *   `bold`: bold text (text which is strong and similar should preferably be derived from this name).
+    *   `heading`: a section header. Optionally provide the heading level as the next element, for example `markup.heading.2.html` for `<h2>â€¦</h2>` in HTML.
+    *   `italic`: italic text (text which is emphasized and similar should preferably be derived from this name).
+    *   `list`: list items. 
+        *   `numbered`: numbered list items.
+        *   `unnumbered`: unnumbered list items.
+    *   `quote`: quoted (sometimes block quoted) text.
+    *   `raw`: text which is verbatim, e.g. code listings. Normally spell checking is disabled for `markup.raw`.
+    *   `other`: other markup constructs.
+
+*   `meta`: the meta scope is generally used to markup larger parts of the document. For example the entire line which declares a function would be `meta.function` and the subsets would be `storage.type`, `entity.name.function`, `variable.parameter` etc. and only the latter would be styled. Some TRUNCATED! Please download pandoc if you want to convert large files.
