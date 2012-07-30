@@ -237,7 +237,7 @@ The following are the common tokens to themes, taken from the TextMate manual. N
         *   `inherited-class`: the superclass/baseclass name.
         *   `attribute-name`: the name of an attribute (mainly in tags).
 
-*   `invalid`: stuff which is â€œinvalidâ€.
+*   `invalid`: stuff which is "invalid."
     
     *   `illegal`: illegal, e.g. an ampersand or lower-than character in HTML (which is not part of an entity/tag).
     *   `deprecated`: for deprecated stuff e.g. using an API function which is deprecated or using styling with strict HTML.
