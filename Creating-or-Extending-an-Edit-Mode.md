@@ -216,7 +216,7 @@ The following are the common tokens to themes, taken from the TextMate manual. N
         *   `number-sign`: `# comment`
         *   `percentage`: `% comment`
         *   *character*: other types of line comments.
-    *   `block`: multi-line comments like `/* â€¦ */` and `<!-- â€¦ -->`. 
+    *   `block`: multi-line comments like `/* ... */` and `<!-- ... -->`. 
         *   `documentation`: embedded documentation.
 
 *   `constant`: various forms of constants.
@@ -224,10 +224,10 @@ The following are the common tokens to themes, taken from the TextMate manual. N
     *   `numeric`: those which represent numbers, e.g. `42`, `1.3f`, `0x4AB1U`.
     *   `character`: those which represent characters, e.g. `&lt;`, `\e`, `\031`. 
         *   `escape`: escape sequences like `\e` would be `constant.character.escape`.
-    *   `language`: constants (generally) provided by the language which are â€œspecialâ€ like `true`, `false`, `nil`, `YES`, `NO`, etc.
+    *   `language`: constants (generally) provided by the language which are "special" like `true`, `false`, `nil`, `YES`, `NO`, etc.
     *   `other`: other constants, e.g. colors in CSS.
 
-*   `entity`: an entity refers to a larger part of the document, for example a chapter, class, function, or tag. We do not scope the entire entity as `entity.*` (we use `meta.*` for that). But we do use `entity.*` for the â€œplaceholdersâ€ in the larger entity, e.g. if the entity is a chapter, we would use `entity.name.section` for the chapter title.
+*   `entity`: an entity refers to a larger part of the document, for example a chapter, class, function, or tag. We do not scope the entire entity as `entity.*` (we use `meta.*` for that). But we do use `entity.*` for the "placeholders" in the larger entity, e.g. if the entity is a chapter, we would use `entity.name.section` for the chapter title.
     
     *   `name`: we are naming the larger entity. 
         *   `function`: the name of a function.
