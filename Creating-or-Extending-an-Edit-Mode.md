@@ -253,7 +253,7 @@ The following are the common tokens to themes, taken from the TextMate manual. N
     *   `underline`: underlined text. 
         *   `link`: this is for links, as a convenience this is derived from `markup.underline` so that if there is no theme rule which specifically targets `markup.underline.link` then it will inherit the underline style.
     *   `bold`: bold text (text which is strong and similar should preferably be derived from this name).
-    *   `heading`: a section header. Optionally provide the heading level as the next element, for example `markup.heading.2.html` for `<h2>â€¦</h2>` in HTML.
+    *   `heading`: a section header. Optionally provide the heading level as the next element, for example `markup.heading.2.html` for `<h2>...</h2>` in HTML.
     *   `italic`: italic text (text which is emphasized and similar should preferably be derived from this name).
     *   `list`: list items. 
         *   `numbered`: numbered list items.
