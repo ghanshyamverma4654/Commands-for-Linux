@@ -203,6 +203,7 @@ var Mode = function() {
 
 With this, any mode specific behaviour (such as indenting, outdenting, or keyboard reactions) will be delegated to the CssMode when we are inside a css block. The prefix in createModeDelegates should match the one used in the highlighter. Multiple modes may be embedded in this manner, and the delegation is nestable, so that a JavaScriptMode inside an HTMLMode inside a MarkdownMode would still retain proper expected behaviour.
 
+<a name="commonTokens" />
 ## Common Tokens
 
 The following are the common tokens to themes, taken from the TextMate manual. Note that not all of these may have styling associated with them, depending on the theme used.
