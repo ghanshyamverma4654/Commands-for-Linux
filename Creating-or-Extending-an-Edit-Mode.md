@@ -263,4 +263,34 @@ The following are the common tokens to themes, taken from the TextMate manual. N
     *   `raw`: text which is verbatim, e.g. code listings. Normally spell checking is disabled for `markup.raw`.
     *   `other`: other markup constructs.
 
-*   `meta`: the meta scope is generally used to markup larger parts of the document. For example the entire line which declares a function would be `meta.function` and the subsets would be `storage.type`, `entity.name.function`, `variable.parameter` etc. and only the latter would be styled. Some TRUNCATED! Please download pandoc if you want to convert large files.
+* `meta` — the meta scope is generally used to markup larger parts of the document. For example the entire line which declares a function would be `meta.function` and the subsets would be `storage.type`, `entity.name.function`, `variable.parameter` etc. and only the latter would be styled. Sometimes the meta part of the scope will be used only to limit the more general element that is styled, most of the time meta scopes are however used in scope selectors for activation of bundle items. For example in Objective-C there is a meta scope for the interface declaration of a class and the implementation, allowing the same tab-triggers to expand differently, depending on context.
+
+* `storage` — things relating to “storage”.
+   -   `type` — the type of something, `class`, `function`, `int`, `var`, etc.
+   -   `modifier` — a storage modifier like `static`, `final`, `abstract`, etc.
+
+* `string` — strings.
+  -   `quoted` — quoted strings.
+    -   `single` — single quoted strings: `'foo'`.
+    -   `double` — double quoted strings: `"foo"`.
+    -   `triple` — triple quoted strings: `"""Python"""`.
+    -   `other` — other types of quoting: `$'shell'`, `%s{...}`.
+
+  -   `unquoted` — for things like here-docs and here-strings.
+  -   `interpolated` — strings which are “evaluated”: `` `date` ``, `$(pwd)`.
+  -   `regexp` — regular expressions: `/(\w+)/`.
+  -   `other` — other types of strings (should rarely be used).
+
+* `support` — things provided by a framework or library should be below `support`.
+  -   `function` — functions provided by the framework/library. For example `NSLog` in Objective-C is `support.function`.
+  -   `class` — when the framework/library provides classes.
+  -   `type` — types provided by the framework/library, this is probably only used for languages derived from C, which has `typedef` (and `struct`). Most other languages would introduce new types as classes.
+-   `constant` — constants (magic values) provided by the framework/library.
+-   `variable` — variables provided by the framework/library. For example `NSApp` in AppKit.
+-   `other` — the above should be exhaustive, but for everything else use `support.other`.
+
+* `variable` — variables. Not all languages allow easy identification (and thus markup) of these.
+
+-   `parameter` — when the variable is declared as the parameter.
+-   `language` — reserved language variables like `this`, `super`, `self`, etc.
+-   `other` — other variables, like `$some_variables`.
