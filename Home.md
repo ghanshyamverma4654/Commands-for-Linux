@@ -6,6 +6,6 @@
 
 [[Default Keyboard Shortcuts]]
 
-[Running Ace from file:](Running-Ace-from-file:---)
+[[Running Ace from file:]]
 
 [[Using Textmate themes with Ace]]
