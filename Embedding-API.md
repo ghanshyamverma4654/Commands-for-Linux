@@ -1,5 +1,3 @@
-## Embedding ACE
-
 ACE can be easily embedded into any existing web page. You can either use one of pre-packaged versions of [ace](https://github.com/ajaxorg/ace-builds/) (just copy one of `src*` subdirectories somewhere into your project), or use requireJS to load the contents of [lib/ace](https://github.com/ajaxorg/ace/tree/master/lib/ace) as `ace`.
 
 Also, take a look at the one of the included demos for how to use Ace:
