@@ -1,10 +1,7 @@
-Importing Textmate Themes and Language Files into Ace
-=====================================================
-
 ACE supports the importing of *.tmtheme* and *.tmlanguage* files for use
 in the editor. The task is accomplished by two simple node scripts.
 
-Importing Textmate Themes
+Importing Textmate/Sublime Themes
 -------------------------
 
 1.  Go to the *tool* folder, and run `npm install` to install required
@@ -21,7 +18,7 @@ using a base64-encoded png. In general, the dark themes and light themes
 each have their own strings, so you can just copy the class from an
 equivalent theme.
 
-Importing Textmate Languages
+Importing Textmate/Sublime Languages
 ----------------------------
 
 If you’re interested in porting over an existing *.tmlanguage* file into
