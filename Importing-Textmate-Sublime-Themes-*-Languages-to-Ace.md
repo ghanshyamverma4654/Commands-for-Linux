@@ -16,7 +16,7 @@ Importing Textmate Themes
 Your *.tmtheme* will be converted and placed into *lib/ace/theme*
 alongside other themes. Note that there’s one more class we’ve added
 that isn’t available in regular Textmate themes, and that’s for
-`_.ace_indent-guide`. This class adds indentation guides for your theme,
+`\_.ace_indent-guide`. This class adds indentation guides for your theme,
 using a base64-encoded png. In general, the dark themes and light themes
 each have their own strings, so you can just copy the class from an
 equivalent theme.
@@ -54,7 +54,7 @@ have. There’s a list of other non-determinable items, too:
 
 Two files are created and placed in *lib/ace/mode*: one for the language
 mode, and one for the set of highlight rules. You will still need to add
-the code into *kitchen*sink.html\_ and *demo.js*, as well as write any
+the code into _kitchen_sink.html_ and _demo.js_, as well as write any
 tests for the highlighting.
 
   [tmtheme.js]: https://github.com/ajaxorg/ace/blob/master/tool/tmtheme.js#L180
