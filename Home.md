@@ -8,4 +8,4 @@
 
 [Running Ace from file:](https://github.com/ajaxorg/ace/wiki/Running-Ace-from-a-file:)
 
-[[Using Textmate themes with Ace]]
+[[Importing .tmtheme and .tmlanguage Files into Ace]]
