@@ -1,3 +1,5 @@
+[[READ THIS FIRST!]]
+
 [[Creating or Extending an Edit Mode]]
 
 [[Default Keyboard Shortcuts]]
