@@ -1,8 +1,8 @@
 Ace uses require.js and ace modules used in application can be optimized as usual.
 
 However some parts need special handling.
-* Ace has many themes and modes, and including them all in minimized file isn't good.
-* Some Ace use web-workers for syntax validation, and files that need to be loaded int web-worker must be optimized separately.
+* Ace has many themes and modes, and including them all in minimized file isn't good for performance.
+* Some Ace modes use web-workers for syntax validation, and files that need to be loaded into web-worker must be optimized separately.
 
 Easiest way is to keep ace/build as well and let Ace to automatically load files from it when needed.
 
