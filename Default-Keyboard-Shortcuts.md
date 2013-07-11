@@ -16,7 +16,7 @@
 | Ctrl-F | Command-F | find |
 | Ctrl-K | Command-G | find next |
 | Ctrl-Shift-K | Command-Shift-G | find previous |
-| Alt-0 | Option-0 | fold all |
+| Alt-0 | Command-Option-0 | fold all |
 | Alt-L, Ctrl-F1 | Command-Alt-L, Command-F1 | fold selection |
 | Down | Down,Ctrl-N | go line down |
 | Up | Up,Ctrl-P | go line up |
@@ -77,4 +77,4 @@
 | Ctrl-T | Ctrl-T | transpose letters |
 | Ctrl-Z | Command-Z | undo |
 | Alt-Shift-L, Ctrl-Shift-F1 | Command-Alt-Shift-L,Command-Shift-F1 | unfold |
-| Alt-Shift-0 | Option-Shift-0 | unfold all |
+| Alt-Shift-0 | Command-Option-Shift-0 | unfold all |
