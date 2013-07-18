@@ -1,4 +1,4 @@
-[[READ THIS FIRST!]]
+See also documentation on [ace.ajax.org](http://ace.ajax.org)
 
 [[Creating or Extending an Edit Mode]]
 

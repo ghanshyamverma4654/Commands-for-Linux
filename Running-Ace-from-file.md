@@ -4,6 +4,6 @@ _firefox:_  from `about:config` set `security.fileuri.strict_origin_policy=false
 
 _opera:_  `opera:config#UserPrefs|AllowFileXMLHttpRequest`
 
-_chrome:_  start it with `--allow-file-access --allow-file-access-from-files --always-enable-dev-tools` flags
+_chrome:_  start it with `--allow-file-access --allow-file-access-from-files` flags
 
 _ie:_  ?
