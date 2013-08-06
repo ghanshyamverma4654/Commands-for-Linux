@@ -2,10 +2,10 @@
 
 | PC (Windows/Linux)             | Mac                            | action                         |
 |:-------------------------------|:-------------------------------|:-------------------------------|
-| Ctrl-Alt-Up | Ctrl-Alt-Up | add multi-cursor above |
-| Ctrl-Alt-Down | Ctrl-Alt-Down | add multi-cursor below |
-| Ctrl-Alt-Right | Ctrl-Alt-Right | add next occurrence to multi-selection |
-| Ctrl-Alt-Left | Ctrl-Alt-Left | add previous occurrence to multi-selection |
+| Ctrl-Alt-Up | Ctrl-Option-Up | add multi-cursor above |
+| Ctrl-Alt-Down | Ctrl-Option-Down | add multi-cursor below |
+| Ctrl-Alt-Right | Ctrl-Option-Right | add next occurrence to multi-selection |
+| Ctrl-Alt-Left | Ctrl-Option-Left | add previous occurrence to multi-selection |
 |  | Ctrl-L | center selection |
 | Ctrl-Shift-U | Ctrl-Shift-U | change to lower case |
 | Ctrl-U | Ctrl-U | change to upper case |
