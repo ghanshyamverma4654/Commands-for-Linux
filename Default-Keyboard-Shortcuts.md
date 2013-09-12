@@ -2,7 +2,7 @@
 
 | PC (Windows/Linux)             | Mac                            | action                         |
 |:-------------------------------|:-------------------------------|:-------------------------------|
-| Ctrl-, | Ctrl-, | Show the settings menu |
+| Ctrl-, | Command-, | Show the settings menu |
 | Ctrl-Alt-Up | Ctrl-Option-Up | add multi-cursor above |
 | Ctrl-Alt-Down | Ctrl-Option-Down | add multi-cursor below |
 | Ctrl-Alt-Right | Ctrl-Option-Right | add next occurrence to multi-selection |
