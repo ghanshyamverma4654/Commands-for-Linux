@@ -18,19 +18,19 @@
 | Ctrl-K | Command-G | find next |
 | Ctrl-Shift-K | Command-Shift-G | find previous |
 | Alt-0 | Command-Option-0 | fold all |
-| Alt-L, Ctrl-F1 | Command-Alt-L, Command-F1 | fold selection |
-| Down | Down,Ctrl-N | go line down |
-| Up | Up,Ctrl-P | go line up |
-| Ctrl-End | Command-End,Command-Down | go to end |
-| Left | Left,Ctrl-B | go to left |
+| Alt-L, Ctrl-F1 | Command-Option-L, Command-F1 | fold selection |
+| Down | Down, Ctrl-N | go line down |
+| Up | Up, Ctrl-P | go line up |
+| Ctrl-End | Command-End, Command-Down | go to end |
+| Left | Left, Ctrl-B | go to left |
 | Ctrl-L | Command-L | go to line |
-| Alt-Right, End | Command-Right,End,Ctrl-E | go to line end |
-| Alt-Left, Home | Command-Left,Home,Ctrl-A | go to line start |
+| Alt-Right, End | Command-Right, End, Ctrl-E | go to line end |
+| Alt-Left, Home | Command-Left, Home, Ctrl-A | go to line start |
 | Ctrl-P |  | go to matching bracket |
-| PageDown | Option-PageDown,Ctrl-V | go to page down |
+| PageDown | Option-PageDown, Ctrl-V | go to page down |
 | PageUp | Option-PageUp | go to page up |
-| Right | Right,Ctrl-F | go to right |
-| Ctrl-Home | Command-Home,Command-Up | go to start |
+| Right | Right, Ctrl-F | go to right |
+| Ctrl-Home | Command-Home, Command-Up | go to start |
 | Ctrl-Left | Option-Left | go to word left |
 | Ctrl-Right | Option-Right | go to word right |
 | Tab | Tab | indent |
@@ -38,18 +38,18 @@
 | Ctrl-Shift-E | Command-Shift-E | macros replay |
 | Alt-Down | Option-Down | move lines down |
 | Alt-Up | Option-Up | move lines up |
-| Ctrl-Alt-Shift-Up | Ctrl-Alt-Shift-Up | move multicursor from current line to the line above |
-| Ctrl-Alt-Shift-Down | Ctrl-Alt-Shift-Down | move multicursor from current line to the line below |
+| Ctrl-Alt-Shift-Up | Ctrl-Option-Shift-Up | move multicursor from current line to the line above |
+| Ctrl-Alt-Shift-Down | Ctrl-Option-Shift-Down | move multicursor from current line to the line below |
 | Shift-Tab | Shift-Tab | outdent |
 | Insert | Insert | overwrite |
-| Ctrl-Shift-Z,Ctrl-Y | Command-Shift-Z,Command-Y | redo |
-| Ctrl-Alt-Shift-Right | Ctrl-Alt-Shift-Right | remove current occurrence from multi-selection and move to next |
-| Ctrl-Alt-Shift-Left | Ctrl-Alt-Shift-Left | remove current occurrence from multi-selection and move to previous |
+| Ctrl-Shift-Z, Ctrl-Y | Command-Shift-Z, Command-Y | redo |
+| Ctrl-Alt-Shift-Right | Ctrl-Option-Shift-Right | remove current occurrence from multi-selection and move to next |
+| Ctrl-Alt-Shift-Left | Ctrl-Option-Shift-Left | remove current occurrence from multi-selection and move to previous |
 | Ctrl-D | Command-D | remove line |
 | Alt-Delete | Ctrl-K | remove to line end |
 | Alt-Backspace | Command-Backspace | remove to linestart |
-| Ctrl-Backspace | Alt-Backspace, Ctrl-Alt-Backspace | remove word left |
-| Ctrl-Delete | Alt-Delete | remove word right |
+| Ctrl-Backspace | Option-Backspace, Ctrl-Option-Backspace | remove word left |
+| Ctrl-Delete | Option-Delete | remove word right |
 | Ctrl-R | Command-Option-F | replace |
 | Ctrl-Shift-R | Command-Shift-Option-F | replace all |
 | Ctrl-Down | Command-Down | scroll line down |
@@ -77,5 +77,5 @@
 | Ctrl-/ | Command-/ | toggle comment |
 | Ctrl-T | Ctrl-T | transpose letters |
 | Ctrl-Z | Command-Z | undo |
-| Alt-Shift-L, Ctrl-Shift-F1 | Command-Alt-Shift-L,Command-Shift-F1 | unfold |
+| Alt-Shift-L, Ctrl-Shift-F1 | Command-Option-Shift-L, Command-Shift-F1 | unfold |
 | Alt-Shift-0 | Command-Option-Shift-0 | unfold all |
