@@ -286,12 +286,12 @@ The following are the common tokens to themes, taken from the TextMate manual. N
   -   `function` — functions provided by the framework/library. For example `NSLog` in Objective-C is `support.function`.
   -   `class` — when the framework/library provides classes.
   -   `type` — types provided by the framework/library, this is probably only used for languages derived from C, which has `typedef` (and `struct`). Most other languages would introduce new types as classes.
--   `constant` — constants (magic values) provided by the framework/library.
--   `variable` — variables provided by the framework/library. For example `NSApp` in AppKit.
--   `other` — the above should be exhaustive, but for everything else use `support.other`.
+  -   `constant` — constants (magic values) provided by the framework/library.
+  -   `variable` — variables provided by the framework/library. For example `NSApp` in AppKit.
+  -   `other` — the above should be exhaustive, but for everything else use `support.other`.
 
 * `variable` — variables. Not all languages allow easy identification (and thus markup) of these.
 
--   `parameter` — when the variable is declared as the parameter.
--   `language` — reserved language variables like `this`, `super`, `self`, etc.
--   `other` — other variables, like `$some_variables`.
+  -   `parameter` — when the variable is declared as the parameter.
+  -   `language` — reserved language variables like `this`, `super`, `self`, etc.
+  -   `other` — other variables, like `$some_variables`.
