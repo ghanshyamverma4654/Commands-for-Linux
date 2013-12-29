@@ -276,7 +276,6 @@ The following are the common tokens to themes, taken from the TextMate manual. N
     -   `double` — double quoted strings: `"foo"`.
     -   `triple` — triple quoted strings: `"""Python"""`.
     -   `other` — other types of quoting: `$'shell'`, `%s{...}`.
-
   -   `unquoted` — for things like here-docs and here-strings.
   -   `interpolated` — strings which are “evaluated”: `` `date` ``, `$(pwd)`.
   -   `regexp` — regular expressions: `/(\w+)/`.
