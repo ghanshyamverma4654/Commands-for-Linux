@@ -79,3 +79,4 @@
 | Ctrl-Z | Command-Z | undo |
 | Alt-Shift-L, Ctrl-Shift-F1 | Command-Option-Shift-L, Command-Shift-F1 | unfold |
 | Alt-Shift-0 | Command-Option-Shift-0 | unfold all |
+| Ctrl-Enter | Command-Enter | enter full screen |
