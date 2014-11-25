@@ -22,7 +22,9 @@ All modes that use C style folding (C, JavaScript, CSS, etc...) support non-stan
 
  - Single line blockComments that start with 3 stars will render a fold widget that folds the comment and the code below it
 ```javascript
-/*** [optional description] ***/
-     [code that will be folded here]
+/*** [section title] ***/
+[code that will be folded here]
+
+/*** [next section title] ***/
 ```
 
