@@ -18,6 +18,13 @@ All modes that use C style folding (C, JavaScript, CSS, etc...) support non-stan
 /*#endregion*/
 ```
 
+A simpler alternative to `#region` sintax is to add `{` or `[` at the end of line comment
+```javascript
+// [optional description] {
+     [code that will be folded here]
+// }
+```
+
 ### Triple Star (Asterisk) Folding
 
  - Single line blockComments that start with 3 stars will render a fold widget that folds the comment and the code below it
