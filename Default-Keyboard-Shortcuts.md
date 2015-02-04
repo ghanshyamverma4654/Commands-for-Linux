@@ -50,7 +50,7 @@
 | Alt-Backspace | Command-Backspace | remove to linestart |
 | Ctrl-Backspace | Option-Backspace, Ctrl-Option-Backspace | remove word left |
 | Ctrl-Delete | Option-Delete | remove word right |
-| Ctrl-R | Command-Option-F | replace |
+| Ctrl-H | Command-Option-F | replace |
 | Ctrl-Shift-R | Command-Shift-Option-F | replace all |
 | Ctrl-Down | Command-Down | scroll line down |
 | Ctrl-Up |  | scroll line up |
