@@ -27,7 +27,7 @@
 [ [[ http://www.praczone.info/images/praczone.png | height = 80px ]] ](http://www.praczone.com/editor) |  
    [pracZone](http://www.praczone.com/editor) |
 |
-[ [[ http://www.ezoui.com/prod/images/EZo_logo.png | height = 80px ]] ](http://jqmdesigner.appspot.com/) |  
+[ [[ https://avatars0.githubusercontent.com/u/5820766?v=3&s=200 | height = 80px ]] ](http://jqmdesigner.appspot.com/) |  
    [JQM Designer](http://jqmdesigner.appspot.com/) |
 |
 ![](http://gravatar.com/avatar/021e207e86fe81a7d81c67ef1ff38a0c | height = 80px ) |  
