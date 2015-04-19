@@ -6,8 +6,6 @@ See also documentation on [ace.ajax.org](http://ace.ajax.org)
 
 [[How to enable Autocomplete in the Ace editor]]
 
-[Running Ace from file:](https://github.com/ajaxorg/ace/wiki/Running-Ace-from-a-file:)
-
 [[Running Ace from file]]
 
 [[Importing .tmtheme and .tmlanguage Files into Ace]]
