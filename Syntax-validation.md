@@ -8,7 +8,7 @@ In packaged version path to the folder with `worker-*` files can be configured w
 ```js
 require("ace/config").set("workerPath", "path/to/ace");
 ```
-By default ace searches for ace.js script on the page and uses it's path as workerPath, so setting it explicitely is only required if workerPath is different or scrip is missing.
+By default ace searches for ace.js script on the page and uses it's path as workerPath, so setting it explicitly is only required if workerPath is different or the script is missing.
 
 Syntax checking is enabled by default. To disable syntax checking use
 
