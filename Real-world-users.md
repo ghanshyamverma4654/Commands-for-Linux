@@ -16,6 +16,7 @@ ACE Editor Users |
 [ [[ http://www.compileonline.com/images/col.png ]] ](http://compileonline.com/) <br>   [Compileonline](http://compileonline.com/) |
 [ [[ http://crunchapp.net/wp-content/themes/crunch/img/skin/logo-top.png | height = 80px ]] ](http://crunchapp.net/) <br>   [Crunch](http://crunchapp.net/) |
 [ [[ https://www.decor-tab-creator.com/_files/decor_logo_white_new.png ]] ](https://www.decor-tab-creator.com/) <br>   [Decor](https://www.decor-tab-creator.com/) |
+[ [[ https://divshot.com/assets/lander_dio/logo-2f999476a5ec6deb09ec2d5b91a3b434.svg | height = 80px ]] ](http://www.divshot.com/) <br>   [Divshot](http://www.divshot.com/) |
 [ [[ http://googledrive.com/host/0B3cR-oSmQsB5aUhWQ2N4RDNmYzA/h/img/icon-128.png | height = 80px ]] ](https://drivenotepad.appspot.com/support) <br>   [Drive Notepad](https://drivenotepad.appspot.com/support) |
 [ [[ https://raw.github.com/Gisto/Gisto/master/app/icon.png | height = 80px ]] ](http://www.gistoapp.com/) <br>   [Gisto](http://www.gistoapp.com/) |
 [ [[ https://assets-cdn.github.com/images/modules/logos_page/Octocat.png | height = 80px ]] ](https://github.com/blog/905-edit-like-an-ace) <br>   [GitHub](https://github.com/blog/905-edit-like-an-ace) |
@@ -56,24 +57,21 @@ ACE Editor Users |
 [ [[ http://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png | height = 80px ]] ](https://en.wikipedia.org/wiki/Special:Version) <br>   [WikipediA](https://en.wikipedia.org/wiki/Special:Version) |
 [ [[ http://www.wolfcms.org/public/themes/wcms/images/wolfcms.gif | height = 80px ]] ](http://www.wolfcms.org/repository/133) <br>   [Wolf CMS](http://www.wolfcms.org/repository/133) |
 [ [[ http://zedapp.s3.amazonaws.com/uploads/2014/02/zed-small.png | height = 80px ]] ](http://zedapp.org/) <br>   [Zed](http://zedapp.org/) |
-[ [[  | height = 80px ]] ](http://orbit.bonsaijs.org/) <br>   [BonsaiJS playground](http://orbit.bonsaijs.org/) |
-[ [[  | height = 80px ]] ](http://www.boottheme.com/) <br>   [BootTheme](http://www.boottheme.com/) |
-[ [[  | height = 80px ]] ](https://chocolatejs.org/) <br>   [Chocolatejs](https://chocolatejs.org/) |
-[ [[  | height = 80px ]] ](http://www.debuggex.com/) <br>   [Debuggex](http://www.debuggex.com/) |
-[ [[  | height = 80px ]] ](http://dillinger.io/) <br>   [Dillinger](http://dillinger.io/) |
-[ [[  | height = 80px ]] ](http://www.divshot.com/) <br>   [Divshot](http://www.divshot.com/) |
-[ [[  | height = 80px ]] ](http://www.edicy.com/blog/new-code-editor-for-creating-unique-website-designs) <br>   [Edicy](http://www.edicy.com/blog/new-code-editor-for-creating-unique-website-designs) |
-[ [[  | height = 80px ]] ](http://www.evaluzio.net/editor) <br>   [Evaluzio](http://www.evaluzio.net/editor) |
-[ [[  | height = 80px ]] ](http://runnable.com/) <br>   [Runnable](http://runnable.com/) |
-[ [[  | height = 80px ]] ](https://www.sharelatex.com/) <br>   [ShareLaTeX](https://www.sharelatex.com/) |
-[ [[  | height = 80px ]] ](http://slimtext.org/) <br>   [Slim Text](http://slimtext.org/) |
+|
 [BakeMyCss](http://bakemycss.mypathforpython.appspot.com/) |
+[BonsaiJS playground](http://orbit.bonsaijs.org/) |
+[BootTheme](http://www.boottheme.com/) |
 [Browserify-markdown-editor](http://thlorenz.github.io/browserify-markdown-editor/) |
+[Chocolatejs](https://chocolatejs.org/) |
 [Codechat](http://codechat.net/) |
 [CodeHelper](http://www.gamedevhelper.com/) |
 [Codiqa](https://codiqa.com/) |
 [CorsLit](http://www.corslit.com/new/melloWorld) |
+[Debuggex](http://www.debuggex.com/) |
+[Dillinger](http://dillinger.io/) |
 [DocsCamp](http://docscamp.com/) |
+[Edicy](http://www.edicy.com/blog/new-code-editor-for-creating-unique-website-designs) |
+[Evaluzio](http://www.evaluzio.net/editor) |
 [Firefox Add-on Builder](https://builder.addons.mozilla.org/) |
 [Inkling Habitat](http://habitat.inkling.com/) |
 [InstaEDU](http://instaedu.com/lesson-demo/) |
@@ -81,10 +79,13 @@ ACE Editor Users |
 [MultiPlay.io](http://multiplay.io/) |
 [ProcessWire](http://modules.processwire.com/modules/inputfield-ace-editor/) |
 [RealOJ](http://www.realoj.com/) |
+[Runnable](http://runnable.com/) |
 [RunPHPCode](https://github.com/websiteduck/Run-PHP-Code) |
 [SassMeister](http://sassmeister.com/) |
 [Scriptie-Talkie](http://thlorenz.github.io/scriptie-talkie/) |
 [ShareJS](http://sharejs.org/hello-ace.html) |
+[ShareLaTeX](https://www.sharelatex.com/) |
+[Slim Text](http://slimtext.org/) |
 [StickyGit](http://www.stickygit.com/) |
 [Stypi](https://code.stypi.com/) |
 [Try allong.es](http://allong.es/try/) |
