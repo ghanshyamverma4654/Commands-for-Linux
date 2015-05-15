@@ -75,6 +75,7 @@ ACE Editor Users |
 [Firefox Add-on Builder](https://builder.addons.mozilla.org/) |
 [Inkling Habitat](http://habitat.inkling.com/) |
 [InstaEDU](http://instaedu.com/lesson-demo/) |
+[JSON Editor Online](http://jsoneditoronline.org/) |
 [Khan Academy](http://ejohn.org/blog/introducing-khan-cs/) |
 [MultiPlay.io](http://multiplay.io/) |
 [ProcessWire](http://modules.processwire.com/modules/inputfield-ace-editor/) |
