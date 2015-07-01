@@ -1,4 +1,4 @@
-See also documentation on [ace.ajax.org](http://ace.ajax.org)
+See also documentation on [ace.ajax.org](http://ace.ajax.org)[.](http://www.fixithere.net/apple-customer-service/)
 
 [[Creating or Extending an Edit Mode]]
 
