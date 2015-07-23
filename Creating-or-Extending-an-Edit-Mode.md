@@ -1,6 +1,6 @@
 # Creating a new Edit Mode
 
-The best way to create a new edit mode, is to extend an existing one.
+The **best** way to create a new edit mode, is to extend an existing one.
 
 ## Minimal new mode
 
