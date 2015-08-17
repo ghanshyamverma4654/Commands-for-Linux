@@ -84,9 +84,10 @@ A highlighters rules have the layout:
 ```javascript
 this.$rules = {
     stateName: [ {
-        token: <token>, // String, Array, or Function
-        regex: <regex>, // String
-        next:  <next>   // Optional, String
+        token:           <token>, // String, Array, or Function
+        regex:           <regex>, // String
+        caseInsensitive: <caseInsensitive // Optional, boolean (defaults to false)
+        next:            <next>   // Optional, String
     } ]
 };
 ```
@@ -98,6 +99,8 @@ A regex can either be a flat regex (`abc`) or have matching groups (`(a+)(b+)`).
 For flat regex matches, token should be a String, or a Function that takes a single argument (the match) and returns a string token.
 
 For grouped regex, token can be a String, in which case all matched groups are given that same token. It can be an Array (of the same length as the number of groups), whereby matches are given the token of the same alignment as in the match. For a function, the Function should take the same number of arguments as there are groups, and return an array of tokens as per before.
+
+If the regex should perform a case insensitive match then the optional property `caseInsensitive` should be specified as `true`.
 
 ```javascript
 // Example rules:
