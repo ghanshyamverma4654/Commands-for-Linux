@@ -86,7 +86,7 @@ this.$rules = {
     stateName: [ {
         token:           <token>, // String, Array, or Function
         regex:           <regex>, // String
-        caseInsensitive: <caseInsensitive // Optional, boolean (defaults to false)
+        caseInsensitive: <caseInsensitive> // Optional, boolean (defaults to false)
         next:            <next>   // Optional, String
     } ]
 };
