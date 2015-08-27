@@ -7,6 +7,11 @@ Built in extensions:
 + **beautify**: Reformatter for PHP code only
   - Can be dropped if you're not supporting PHP editing
 
++ **chromevox**: Seems to be text to speech related.
+  Doesn't seem to do anything, no documentation on what the requirements are or how to enable them.
+  - [usage example](https://github.com/ajaxorg/ace/blob/master/demo/chromevox.html)
+  - [demo](http://ace.c9.io/demo/chromevox.html)
+
 + **Language Tools**: adds support for autocompletion and snippets
   - [usage example](https://github.com/ajaxorg/ace/blob/master/demo/autocompletion.html)
   - [demo](http://ace.c9.io/demo/autocompletion.html)
