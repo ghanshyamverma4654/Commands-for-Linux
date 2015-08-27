@@ -12,6 +12,10 @@ Built in extensions:
   - [usage example](https://github.com/ajaxorg/ace/blob/master/demo/chromevox.html)
   - [demo](http://ace.c9.io/demo/chromevox.html)
 
++ **keybinding_menu**: Generates a popup menu with current keybindings
+  - [usage example](https://github.com/ajaxorg/ace/blob/master/demo/keyboard_shortcuts.html)
+  - [demo](http://ace.c9.io/demo/keyboard_shortcuts.html)
+
 + **Language Tools**: adds support for autocompletion and snippets
   - [usage example](https://github.com/ajaxorg/ace/blob/master/demo/autocompletion.html)
   - [demo](http://ace.c9.io/demo/autocompletion.html)
