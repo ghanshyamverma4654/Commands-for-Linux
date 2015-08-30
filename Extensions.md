@@ -1,14 +1,22 @@
-Built in extensions:
+This is a list of useful Ace related code. Feel free to add your project, or a project you found that seems relevant.
+
+###Externally-hosted extensions:
++ **paredit-js** structured navigation and editing of s-expressions
+  - http://robert.kra.hn/projects/paredit-js 
+
+
+###Built in extensions:
+
+extensions from [lib/ace/ext](https://github.com/ajaxorg/ace/tree/master/lib/ace/ext) which are included in the core repository but not loaded by ace.js
 
 + **Emmet**: [emmet](https://github.com/emmetio/emmet) plugin for Ace 
   - [usage example](https://github.com/ajaxorg/ace/blob/master/demo/emmet.html#L26-L40)
   - [demo](http://ace.c9.io/demo/emmet.html)
 
-+ **beautify**: Reformatter for PHP code only
-  - Can be dropped if you're not supporting PHP editing
++ **beautify**: code formatter
+  - Supports only PHP 
 
-+ **chromevox**: Seems to be text to speech related.
-  Doesn't seem to do anything, no documentation on what the requirements are or how to enable them.
++ **chromevox**: Support for http://www.chromevox.com/ screen reader.
   - [usage example](https://github.com/ajaxorg/ace/blob/master/demo/chromevox.html)
   - [demo](http://ace.c9.io/demo/chromevox.html)
 
@@ -19,3 +27,19 @@ Built in extensions:
 + **Language Tools**: adds support for autocompletion and snippets
   - [usage example](https://github.com/ajaxorg/ace/blob/master/demo/autocompletion.html)
   - [demo](http://ace.c9.io/demo/autocompletion.html)
+
++ **searchbox** used for default find replace dialog
+  - loaded automatically when pressing `ctrl-f` (`cmd-f` on mac)
+
++ **Static Highlighter**: static code highlighter
+  - can be used on [client side](https://github.com/ajaxorg/ace/blob/master/demo/static-highlighter.html) or  from [nodejs server](https://github.com/ajaxorg/ace/blob/master/demo/static-highlighter/server.js) 
+  - [demo](http://ace.c9.io/demo/static-highlighter.html)
+
++ **modelist** detect mode based on file path
+  -  [usage example](https://github.com/ajaxorg/ace/blob/master/demo/modelist.html)
+
+
++ **whitespace** helps to detect indentation based on file contents, convert between tabs and spaces, trim trailing whitespace
+  - https://github.com/ajaxorg/ace/blob/v1.2.0/lib/ace/ext/whitespace.js
+  - https://github.com/ajaxorg/ace/blob/v1.2.0/demo/kitchen-sink/demo.js#L208
+  - https://github.com/ajaxorg/ace/blob/v1.2.0/demo/kitchen-sink/demo.js#L344
