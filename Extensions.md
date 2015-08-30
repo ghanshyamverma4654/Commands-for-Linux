@@ -31,6 +31,11 @@ extensions from [lib/ace/ext](https://github.com/ajaxorg/ace/tree/master/lib/ace
 + **searchbox** used for default find replace dialog
   - loaded automatically when pressing `ctrl-f` (`cmd-f` on mac)
 
++ **[Statusbar](https://github.com/ajaxorg/ace/blob/master/lib/ace/ext/statusbar.js#L32)**: simple status widget showing selection and keyboard handler status
+  - [usage example](https://github.com/ajaxorg/ace/blob/master/demo/statusbar.html)
+  - [demo](http://ace.c9.io/demo/statusbar.html)
+
+
 + **Static Highlighter**: static code highlighter
   - can be used on [client side](https://github.com/ajaxorg/ace/blob/master/demo/static-highlighter.html) or  from [nodejs server](https://github.com/ajaxorg/ace/blob/master/demo/static-highlighter/server.js) 
   - [demo](http://ace.c9.io/demo/static-highlighter.html)
