@@ -1,4 +1,4 @@
-See also documentation on [ace.ajax.org](http://ace.ajax.org)[.](http://www.fixithere.net/apple-customer-service/)
+See also documentation on [ace.ajax.org](http://ace.ajax.org)
 
 [[Building ace]]
 
