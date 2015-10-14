@@ -4,6 +4,8 @@ This is a list of useful Ace related code. Feel free to add your project, or a p
 + **paredit-js** structured navigation and editing of s-expressions
   - http://robert.kra.hn/projects/paredit-js 
 
++ **ace-grammar** Transform a JSON grammar into a syntax-highlight parser for ACE Editor 
+  - http://foo123.github.io/examples/ace-grammar/
 
 ###Built in extensions:
 
