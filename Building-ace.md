@@ -13,6 +13,6 @@ build script accepts following options
 --target ./path    specify relative path for output folder (default value is "./build")
 ```
 
-to build bookmarklet verison run `node Makefile.dryice.js bm`
+to build bookmarklet version run `node Makefile.dryice.js bm`
 
 and to generate all files in ace-builds repository run `node Makefile.dryice.js full --target ../ace-builds`
