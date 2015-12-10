@@ -24,10 +24,10 @@ Importing Textmate/Sublime Languages
 If you’re interested in porting over an existing *.tmlanguage* file into
 Ace’s mode syntax highlighting, there’s a tool to accomplish that, too.
 
-1.  Go to the *tool* folder. Run `npm install` to install required
-    dependencies.
-2.  Drop your *.tmlanguage* file into the tools folder.
-3.  Run `node tmlanguage.js <path_to_tmlanguage_file>`, such as
+1.  Run `npm install` at the root ace folder to install required dependencies.
+2.  Go to the *tool* folder.
+3.  Drop your *.tmlanguage* file into the *tool* folder.
+4.  Run `node tmlanguage.js <path_to_tmlanguage_file>`, such as
     `node tmlanguage.js MyGreatLanguage.tmlanguage`.
 
 Your *.tmlanguage* file will be converted to the best of the converter’s
