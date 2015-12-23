@@ -9,11 +9,10 @@ define('ace/mode/example', function(require, exports, module) {
 
 var oop = require("ace/lib/oop");
 var TextMode = require("ace/mode/text").Mode;
-var Tokenizer = require("ace/tokenizer").Tokenizer;
 var ExampleHighlightRules = require("ace/mode/example_highlight_rules").ExampleHighlightRules;
 
 var Mode = function() {
-    this.$tokenizer = new Tokenizer(new ExampleHighlightRules().getRules());
+    this.HighlightRules = ExampleHighlightRules;
 };
 oop.inherits(Mode, TextMode);
 
