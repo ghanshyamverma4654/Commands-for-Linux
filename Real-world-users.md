@@ -43,6 +43,7 @@ ACE Editor Users |
 [ [[ http://www.praczone.info/images/praczone.png ]] ](http://www.praczone.com/editor) <br>   [pracZone](http://www.praczone.com/editor) |
 [ [[ http://ww1.prweb.com/prfiles/2012/05/18/9522833/PythonAnywhere_1280x237.png | height = 60px ]] ](http://www.pythonanywhere.com/) <br>   [PythonAnywhere](http://www.pythonanywhere.com/) |
 [ [[ http://resources.qooxdoo.org/images/logo.gif | height = 80px ]] ](http://demo.qooxdoo.org/devel/playground/#) <br>   [Qooxdoo playground](http://demo.qooxdoo.org/devel/playground/#) |
+[ [[ https://redaktor.io/dist/imgs/favicon.png | height = 64px ]] ](https://redaktor.io/) <br>   [Redaktor.io](https://redaktor.io/) |
 [ [[ http://repl.it/public/images/logo-small.png | height = 80px ]] ](http://repl.it/) <br>   [Repl.it](http://repl.it/) |
 [ [[ http://www.rstudio.com/wp-content/uploads/2014/03/blue-125.png ]] ](http://rstudio.org/) <br>   [RStudio](http://rstudio.org/) |
 [ [[ http://www.scroipe.com/static/dd88f255a4/img/logo.png ]] ](http://www.scroipe.com/) <br>   [Scroipe](http://www.scroipe.com/) |
