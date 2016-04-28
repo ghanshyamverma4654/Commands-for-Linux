@@ -2,7 +2,7 @@ See also documentation on [ace.ajax.org](http://ace.ajax.org)
 
 [[Building ace]]
 
-[[Building Ace with r.js optimizer]]
+[[Building Ace with the r.js optimizer]]
 
 [[Configuring Ace]]
 
