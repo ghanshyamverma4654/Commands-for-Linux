@@ -215,7 +215,7 @@ The following are the common tokens to themes, taken from the TextMate manual. N
         *   `double-dash`: `-- comment`
         *   `number-sign`: `# comment`
         *   `percentage`: `% comment`
-        *   *character*: other types of line comments.
+        *   `character`: other types of line comments.
     *   `block`: multi-line comments like `/* ... */` and `<!-- ... -->`. 
         *   `documentation`: embedded documentation.
 
