@@ -26,7 +26,7 @@ To add syntax validation to a new language
 1. Find a syntax checker for the language. E.g. for javascript Ace uses jsHint
 
 2. add createWorker method to the mode
-```js
+    ```js
     var WorkerClient = require("ace/worker/worker_client").WorkerClient;
     this.createWorker = function(session) {
         var worker = new WorkerClient(["ace"], "path/to/worker", "WorkerModule");
@@ -42,11 +42,11 @@ To add syntax validation to a new language
 
         return worker;
     };
-```
+    ```
 
 3.  create a module that invokes linter and converts it's output to the format that ace can understand
 
-```js
+   ```js
 define(function(require, exports, module) {
 "use strict";
 
@@ -84,9 +84,7 @@ oop.inherits(WorkerModule, Mirror);
 }).call(WorkerModule.prototype);
 
 });
-
-```
-
+   ```
 
 For an example take a look at 
 https://github.com/ajaxorg/ace/blob/master/lib/ace/mode/javascript.js#L100-L113 and
