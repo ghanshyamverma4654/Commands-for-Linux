@@ -87,7 +87,5 @@ oop.inherits(WorkerModule, Mirror);
    ```
 
 For an example take a look at 
-https://github.com/ajaxorg/ace/blob/master/lib/ace/mode/javascript.js#L100-L113 and
+https://github.com/ajaxorg/ace/blob/master/lib/ace/mode/javascript.js#L97-L110 and
 https://github.com/ajaxorg/ace/blob/master/lib/ace/mode/javascript_worker.js
-
-
