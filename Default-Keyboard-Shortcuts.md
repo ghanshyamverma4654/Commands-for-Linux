@@ -102,7 +102,7 @@
 |:-------------------------------|:-------------------------------|:-------------------------------|  
 | Tab | Tab | Indent |
 | Shift-Tab | Shift-Tab | Outdent |
-| Ctrl-Z | Command-Z | undo |
+| Ctrl-Z | Command-Z | Undo |
 | Ctrl-Shift-Z, Ctrl-Y | Command-Shift-Z, Command-Y | Redo |
 | Ctrl-, | Command-, | Show the settings menu |
 | Ctrl-/ | Command-/ | Toggle comment |
