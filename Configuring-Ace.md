@@ -62,9 +62,10 @@ here's a list of all supported options. Where not indicated otherwise option val
     mode: path to a mode e.g "ace/mode/text"
 
 ## editor options defined by extensions
-    enableMultiselect: 
+    enableMultiselect:    # on by default
     enableEmmet: 
     enableBasicAutocompletion:
+    enableLiveAutocompletion:   
     enableSnippets:
     spellcheck:
     useElasticTabstops:
