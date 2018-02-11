@@ -11,19 +11,23 @@ Core ace components (`editor`, `session`, `renderer`, `mouseHandler`) implement 
 here's a list of all supported options. Where not indicated otherwise option values are boolean.
 
 ### editor options
+```
     selectionStyle: "line"|"text"
-    highlightActiveLine: 
-    highlightSelectedWord: 
-    readOnly: 
+    highlightActiveLine: true|false
+    highlightSelectedWord: true|false
+    readOnly: true|false
     cursorStyle: "ace"|"slim"|"smooth"|"wide"
     mergeUndoDeltas: false true "always"
-    behavioursEnabled: 
-    wrapBehavioursEnabled: 
+    behavioursEnabled: true|false
+    wrapBehavioursEnabled: true|false
     autoScrollEditorIntoView: // this is needed if editor is inside scrollable page
+    copyWithEmptySelection: copy/cut the full line if selection is empty, defaults to false
+``` 
 
 ### renderer options
-    hScrollBarAlwaysVisible:
-    vScrollBarAlwaysVisible:
+```
+    hScrollBarAlwaysVisible: true|false
+    vScrollBarAlwaysVisible: true|false
     highlightGutterLine:
     animatedScroll:
     showInvisibles:
@@ -37,20 +41,24 @@ here's a list of all supported options. Where not indicated otherwise option val
     displayIndentGuides:
     fontSize: number or css font-size string
     fontFamily: css 
-    maxLines: 
+    maxLines: resize editor based on the contents until the number of lines reaches maxLines
     minLines:
     scrollPastEnd: 
     fixedWidthGutter:
     theme: path to a theme e.g "ace/theme/textmate"
+```
 
 ### mouseHandler options
+```
     scrollSpeed: number
     dragDelay:  number
     dragEnabled:
     focusTimout: number
     tooltipFollowsMouse:
+```
 
 ### session options
+```
     firstLineNumber: number
     overwrite:
     newLineMode:
@@ -60,8 +68,10 @@ here's a list of all supported options. Where not indicated otherwise option val
     wrap: 
     foldStyle:
     mode: path to a mode e.g "ace/mode/text"
+```
 
 ## editor options defined by extensions
+```js
     enableMultiselect:    # on by default
     enableEmmet: 
     enableBasicAutocompletion:
@@ -69,5 +79,6 @@ here's a list of all supported options. Where not indicated otherwise option val
     enableSnippets:
     spellcheck:
     useElasticTabstops:
-    
+```
+
 `editor.setOption` will also modify options of `editor.session`, `editor.renderer` and `editor.$mouseHandler`
