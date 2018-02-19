@@ -10,75 +10,81 @@ Core ace components (`editor`, `session`, `renderer`, `mouseHandler`) implement 
 
 here's a list of all supported options. Where not indicated otherwise option values are boolean.
 
+`editor.setOption` will also modify options of `session/renderer/$mouseHandler` associated with it
+
+
 ### editor options
-```
+
     selectionStyle: "line"|"text"
     highlightActiveLine: true|false
     highlightSelectedWord: true|false
     readOnly: true|false
     cursorStyle: "ace"|"slim"|"smooth"|"wide"
-    mergeUndoDeltas: false true "always"
-    behavioursEnabled: true|false
-    wrapBehavioursEnabled: true|false
-    autoScrollEditorIntoView: // this is needed if editor is inside scrollable page
-    copyWithEmptySelection: copy/cut the full line if selection is empty, defaults to false
-``` 
-
+    mergeUndoDeltas: false|true|"always"
+    behavioursEnabled: boolean
+    wrapBehavioursEnabled: boolean
+    // this is needed if editor is inside scrollable page
+    autoScrollEditorIntoView: boolean (defaults to false)
+    // copy/cut the full line if selection is empty, defaults to false
+    copyWithEmptySelection: boolean 
+    useSoftTabs: boolean (defaults to false)
+    navigateWithinSoftTabs: boolean (defaults to false)
+ 
 ### renderer options
-```
-    hScrollBarAlwaysVisible: true|false
-    vScrollBarAlwaysVisible: true|false
-    highlightGutterLine:
-    animatedScroll:
-    showInvisibles:
-    showPrintMargin:
-    printMarginColumn:
-    printMargin:
-    fadeFoldWidgets:
-    showFoldWidgets:
-    showLineNumbers:
-    showGutter:
-    displayIndentGuides:
+ 
+    hScrollBarAlwaysVisible: boolean
+    vScrollBarAlwaysVisible: boolean
+    highlightGutterLine: boolean
+    animatedScroll: boolean
+    showInvisibles: boolean
+    showPrintMargin: boolean
+    printMarginColumn: number (defaults to 80)
+    // shortcut for showPrintMargin and printMarginColumn
+    printMargin: false|number 
+    fadeFoldWidgets: boolean
+    showFoldWidgets: boolean (defaults to true)
+    showLineNumbers: boolean (defaults to true)
+    showGutter: boolean (defaults to true)
+    displayIndentGuides: boolean (defaults to true)
     fontSize: number or css font-size string
-    fontFamily: css 
-    maxLines: resize editor based on the contents until the number of lines reaches maxLines
-    minLines:
-    scrollPastEnd: 
-    fixedWidthGutter:
+    fontFamily: css font-family value
+    // resize editor based on the contents of the editor until the number of lines reaches maxLines
+    maxLines: number
+    minLines: number
+    // number of page sizes to scroll after document end (typical values are 0, 0.5, and 1)
+    scrollPastEnd: number|boolean
+    fixedWidthGutter: boolean (defaults to false)
     theme: path to a theme e.g "ace/theme/textmate"
-```
+ 
 
 ### mouseHandler options
-```
+ 
     scrollSpeed: number
     dragDelay:  number
-    dragEnabled:
+    dragEnabled: boolean (defaults to true)
     focusTimout: number
-    tooltipFollowsMouse:
-```
-
+    tooltipFollowsMouse: boolean
+ 
 ### session options
-```
-    firstLineNumber: number
-    overwrite:
-    newLineMode:
-    useWorker:
-    useSoftTabs:
+ 
+    firstLineNumber: number defaults to 1
+    overwrite: boolean
+    newLineMode: "auto" | "unix" | "windows"
+    useWorker: boolean
+    useSoftTabs: boolean
     tabSize: number
-    wrap: 
-    foldStyle:
+    wrap: boolean|number
+    foldStyle: "markbegin"|"markbeginend"|"manual"
     mode: path to a mode e.g "ace/mode/text"
-```
+ 
 
 ## editor options defined by extensions
-```js
-    enableMultiselect:    # on by default
-    enableEmmet: 
-    enableBasicAutocompletion:
-    enableLiveAutocompletion:   
-    enableSnippets:
-    spellcheck:
-    useElasticTabstops:
-```
-
-`editor.setOption` will also modify options of `editor.session`, `editor.renderer` and `editor.$mouseHandler`
+ 
+    enableMultiselect: boolean   # on by default
+    enableEmmet: boolean
+    enableBasicAutocompletion: boolean
+    enableLiveAutocompletion:   boolean
+    enableSnippets: boolean
+    spellcheck: boolean
+    useElasticTabstops: boolean
+ 
