@@ -29,6 +29,7 @@ here's a list of all supported options. Where not indicated otherwise option val
     copyWithEmptySelection: boolean 
     useSoftTabs: boolean (defaults to false)
     navigateWithinSoftTabs: boolean (defaults to false)
+    enableMultiselect: boolean   # on by default
  
 ### renderer options
  
@@ -79,12 +80,15 @@ here's a list of all supported options. Where not indicated otherwise option val
  
 
 ## editor options defined by extensions
- 
-    enableMultiselect: boolean   # on by default
-    enableEmmet: boolean
+
+to use this options the corresponding extension file needs to be loaded in addition to the ace.js
+
+    // following options require ext-language_tools.js
     enableBasicAutocompletion: boolean
     enableLiveAutocompletion:   boolean
     enableSnippets: boolean
-    spellcheck: boolean
+    // the following option requires ext-emmet.js and the emmet library 
+    enableEmmet: boolean
+    // the following option requires ext-elastic_tabstops_lite.js
     useElasticTabstops: boolean
  
